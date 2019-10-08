@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+#main {
+  display: grid;
+  grid-template-areas: "he he" "na na" "as ar" "fo fo";
+  grid-template-rows: 15vh 10vh 60vh 15vh;
+  grid-template-columns: 30vw 70vw;
+}
+/*breakpoint*/
+@media screen and (max-width: 760px) {
+  #main {
+    grid-template-areas: "he" "as" "ar" "fo";
+    grid-template-columns: 100vw;
+  }
+}
+
+.header {
+  grid-area: he;
+  background-color: aliceblue;
+}
+.nav {
+  grid-area: na;
+  background-color: beige;
+}
+.article {
+  grid-area: ar;
+  background-color: bisque;
+}
+.aside {
+  grid-area: as;
+  background-color: aqua;
+}
+.footer {
+  grid-area: fo;
+  background-color: wheat;
+}

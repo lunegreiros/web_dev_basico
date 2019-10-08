@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+#main {
+  display: grid;
+  grid-template-areas: "header header" "nav nav" "aside article" "footer footer";
+  grid-template-rows: 20vh 10vh 40vh 30vh;
+}
+/* breakpoint */
+@media screen and (max-width: 550px) {
+  #main {
+    grid-template-areas: "header" "aside" "article" "footer";
+    grid-template-columns: 100vw;
+  }
+}
+
+.header {
+  grid-area: header;
+  background-color: red;
+}
+.nav {
+  grid-area: nav;
+  background-color: yellow;
+}
+.article {
+  grid-area: article;
+  background-color: aquamarine;
+}
+.aside {
+  grid-area: aside;
+  background-color: bisque;
+}
+.footer {
+  grid-area: footer;
+  background-color: azure;
+}
