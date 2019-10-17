@@ -7,7 +7,7 @@
 
 </head>
 
-<body>
+<body class="grid-container">
     <header class="header">
         <!--primeira camda do nav: menu do aplicativo-->
         <nav class="menu">
@@ -17,31 +17,47 @@
                 <li><a href="#">Ajuda</a></li>
             </ul>
         </nav>
-        <a href="#" target="_self">logo</a>
+        <a class="logo" href="#" target="_self">logo</a>
 
     </header>
 
     <!--segunda camada do nav: btn do aplicativo-->
-    <nav>
-        <div>btn da direita // do projeto</div>
-        <div>btn do meio // genericos</div>
-        <div>btn da esquerda // do autor, login</div>
+    <nav class="tool">
+        <div>
+            <button>btn da direita // do projeto</button>
+
+            <button>btn da direita // do projeto</button>
+
+            <button>btn da direita // do projeto</button>
+        </div>
     </nav>
 
     <!--todo o conteudo-->
-    <section>
-        <aside>
-            lado esquerdo
-        </aside>
-        <article>
-            miolo do meio
-        </article>
-        <aside>
-            lado direito
-        </aside>
-    </section>
 
-    <footer>
+    <aside class="lista">
+        lado esquerdo
+    </aside>
+    <article class="conteudo">
+        <h1>Titulo do form</h1>
+        <form action="" method="GET">
+            <!--cada div eh uma linha do form-->
+            <div>
+                primeiro campo:
+                <input type="text">
+            </div>
+            <div>
+                segundo campo:
+                <input type="text">
+            </div>
+        </form>
+
+    </article>
+    <aside class="inspector">
+        lado direito
+    </aside>
+
+
+    <footer class="footer">
         footer
     </footer>
 

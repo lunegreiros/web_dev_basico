@@ -2,6 +2,51 @@
   margin: 0px;
   padding: 0px;
 }
+.grid-container {
+  display: grid;
+  grid-template-rows: 5vh 8vh 70vh 17vh;
+  grid-template-columns: 15vmax 60vmax 25vmax;
+  grid-template-areas: "he he he" "to to to" "li co in" "fo fo fo";
+}
 .header {
   display: flex;
+  background-color: aqua;
+  grid-area: he;
+}
+
+.menu {
+  background-color: antiquewhite;
+}
+.logo {
+  background-color: chartreuse;
+}
+.tool {
+  background-color: coral;
+  grid-area: to;
+}
+.lista {
+  background-color: cornflowerblue;
+  grid-area: li;
+}
+.conteudo {
+  background-color: violet;
+  grid-area: co;
+}
+.inspector {
+  background-color: wheat;
+  grid-area: in;
+}
+.footer {
+  background-color: teal;
+  grid-area: fo;
+}
+.conteudo div {
+  display: block;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: burlywood;
+}
+h1 {
+  text-align: center;
+  margin-top: 7vh;
 }
