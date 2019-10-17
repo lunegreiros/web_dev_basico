@@ -1,0 +1,12 @@
+.left {
+  float: left;
+}
+
+.right {
+  overflow: hidden;
+  display: block;
+  padding: 0 4px 0 10px;
+}
+.right input {
+  width: 100%;
+}
