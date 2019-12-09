@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <title>Flex Aula 06</title>
+    <link rel="stylesheet" href="flex_aula06.css" />
+  </head>
+
+  <body>
+    <h1>
+      valores iniciais: 100 px para cada item<br />espaço do container = 500px
+    </h1>
+    <section class="container">
+      <div class="item">A</div>
+      <div class="item">B</div>
+      <div class="item">C</div>
+    </section>
+    <h1>flex-grow: 0, 0, 0</h1>
+    <section class="container">
+      <div class="item grow0">A</div>
+      <div class="item grow0">B</div>
+      <div class="item grow0">C</div>
+      <div class="item i2">espaço extra <br />500 - 3x100 = 200px</div>
+    </section>
+    <h1>
+      flex-grow: 2, 1, 1<br />soma dos itens grow = 4<br />espaço extra 200 / 4
+      = 50 (a mais)
+    </h1>
+    <section class="container">
+      <div class="item grow2">width = 200</div>
+      <div class="item grow1">width = 150</div>
+      <div class="item grow1">width = 150</div>
+    </section>
+    <hr />
+    <h1>
+      com o <strong>SHRINK</strong> é a mesma coisa, somente quando o container
+      dinimue<br />o conteudo que foi diminuido é dividido entre os itens
+      (respeitando cada peso do shrink)
+    </h1>
+  </body>
+</html>

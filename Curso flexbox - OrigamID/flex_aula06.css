@@ -1,0 +1,33 @@
+.grow0 {
+  flex-grow: 0;
+}
+.grow1 {
+  flex-grow: 1;
+}
+.grow2 {
+  flex-grow: 2;
+}
+h1 {
+  font-family: monospace;
+  font-size: medium;
+  text-align: center;
+}
+.item {
+  margin: 0px;
+  height: 100px;
+  width: 100px;
+  background: tomato;
+  font-family: monospace;
+  text-align: center;
+}
+.i2 {
+  background: lightgray;
+  width: 200px;
+}
+.container {
+  display: flex;
+  border: 1px solid #ccc;
+  padding: 0px;
+  width: 500px;
+  margin: 0 auto;
+}
