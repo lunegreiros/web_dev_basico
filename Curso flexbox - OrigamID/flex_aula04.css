@@ -1,0 +1,46 @@
+.stretch {
+  align-items: stretch;
+}
+.start {
+  align-items: flex-start;
+}
+.end {
+  align-items: flex-end;
+}
+.center {
+  align-items: center;
+}
+.baseline {
+  align-items: baseline;
+}
+.meio {
+  justify-content: center;
+  align-items: center;
+}
+.meio .item {
+  flex: 0;
+}
+h1 {
+  font-family: monospace;
+  font-size: medium;
+  text-align: center;
+}
+.container {
+  display: flex;
+  max-width: 300px;
+  border: 1px solid #ccc;
+  min-height: 120px;
+  margin: 0 auto;
+}
+.row {
+  flex-direction: row;
+}
+.column {
+  flex-direction: column;
+}
+.item {
+  flex: unset;
+  margin: 2px;
+  background: tomato;
+  font-family: monospace;
+}

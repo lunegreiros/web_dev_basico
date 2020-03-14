@@ -1,0 +1,22 @@
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+}
+.flex {
+  display: flex;
+}
+.flex_wrap {
+  flex-wrap: wrap;
+}
+.item {
+  background: tomato;
+  text-align: center;
+  margin: 2px;
+  font-family: monospace;
+}
+h1 {
+  text-align: center;
+  font-family: monospace;
+  font-size: medium;
+}
